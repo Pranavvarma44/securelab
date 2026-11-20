@@ -1,0 +1,25 @@
+MISSION 6: PIPE VS SHARED MEMORY
+
+1. PIPE (MESSAGE PASSING)
+
+- Processes communicate through a pipe.
+- Data is transferred using read() and write().
+- It is managed by the operating system.
+- It is relatively simple to implement.
+
+2. SHARED MEMORY
+
+- Multiple processes access a common memory region.
+- Processes communicate by reading and writing shared data.
+- It is generally faster for large data transfers.
+- Synchronization is required to prevent race conditions.
+
+3. COMPARISON
+
+Pipe uses message passing, whereas shared memory
+allows processes to access the same memory region.
+
+Pipes provide a simpler communication mechanism.
+Shared memory can provide faster data access but
+requires additional synchronization and permission
+management.

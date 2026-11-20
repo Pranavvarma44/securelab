@@ -1,0 +1,23 @@
+PROPOSED SECURE IPC CONTROL
+
+Control: Access Control on IPC Endpoints
+
+Description:
+
+IPC endpoints must be protected so that only
+authorized processes can communicate.
+
+Security Measures:
+
+1. Apply appropriate access permissions.
+2. Prevent unauthorized processes from accessing
+   shared-memory regions.
+3. Validate received messages.
+4. Use synchronization mechanisms to prevent
+   concurrent access problems.
+
+Security Objective:
+
+Protect both the communication data and the
+communication endpoint from unauthorized access
+and modification.
